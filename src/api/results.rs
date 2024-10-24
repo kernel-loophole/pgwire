@@ -42,6 +42,9 @@ impl Tag {
         self.oid = Some(oid);
         self
     }
+    pub fn new_for_execution(p0: &str, p1: Option<usize>) -> Tag {
+        todo!()
+    }
 }
 
 impl From<Tag> for CommandComplete {
